@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Формы</title>
+  </head>
+
+
+  <body>
+
+    <h1>Forms</h1>
+
+      <form name="inputname">
+        <p>Name</p>
+        <input name="Name" <type="text"/>
+      </form>
+
+      <form name="inputemail">
+        <p>Email</p>
+        <input name="Email" <type="email"/>
+      </form>
+
+      <form name="gendercheck">
+        <p>Gender</p>
+        <input type="radio" name="gender" value="male" > Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+      </form>
+
+      <form name="checkbox">
+        <p>Current Status</p>
+        <input type="checkbox" name="status" value="Student" />Student <br />
+        <input type="checkbox" name="status" value="Employed" />Employed <br />
+        <input type="checkbox" name="status" value="Unemployed" />Unemployed <br />
+      </form>
+
+      <form name="birthdate">
+        <p>Month and Year of Birth</p>
+        <input type="month" name="birthdate"> <!--Я выбрал готовый пикер через <input type="month">, это осознанное решение и я _знаю_, как сделать пикер самостоятельно. Но этот вариант красивше.  Фаерфокс не рендерит этот тип инпута корректно, эффект будет виден в хроме, хромиуме и эдже. Через несколько версий и ФФ подтянется-->
+      </form>
+
+      <form name="skillset">
+        <p>Skills and Technologies</p>
+        <select name="skillset" size="10" multiple="multiple">
+          <optgroup label="Hard Skills">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="git">git</option>
+          </optgroup>
+          <optgroup label="Soft Skills">
+            <option value="timemanagement">Time Management</option>
+            <option value="proactivity">Proactivity</option>
+            <option value="teamwork">Teamwork</option>
+            <option value="leadership">Leadership</option>
+          </optgroup>
+        </select>
+
+      <form name="inputfile">
+        <p>Photo</p>
+        <input type="file">
+      </form>
+
+      <form name="comments">
+        <p>Comments</p>
+        <textarea rows="4" cols="20" name="comments">
+          &nbsp
+        </textarea>
+      </form>
+
+      <form name="submit">
+        <input type="button" value="Save">
+      </form>
+
+
+  </body>
+</html>
