@@ -1,0 +1,30 @@
+.something {
+  width: 100%;
+  background: #A64DFF;
+  margin-top: 24px;
+  box-shadow: 0 0 3px rgba(50, 0, 0, 0.5);
+}
+
+.something ul {
+  width: 900px;
+  margin: auto;
+}
+
+.something li {
+  display: inline-block;
+  font-family: Impact, serif;
+  font-size: 20px;
+  padding: 4px 0;
+  position: relative;
+}
+
+.something li a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 20px;
+}
+
+.something li a:hover {
+    background-color: #EEEEEE;
+    color: #A1A1A1;
+}
