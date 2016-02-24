@@ -61,4 +61,3 @@ input[type="checkbox"]#blue:checked ~ label[for="blue"] {
 input[type="checkbox"]#green:checked ~ label[for="green"] {
   opacity: 0.5;
 }
-

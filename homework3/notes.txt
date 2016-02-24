@@ -1,0 +1,89 @@
+тег style, работает только на свой элемент <p style="color: blue; font-size:12px;"></p>
+также тегом <style> можно задать стили глобально</style>
+
+типы стилей: браузера
+             автора сайта
+             пользователя
+
+синтаксис СSS: селектор - определение стиля
+
+background-color
+           image
+           repeat
+           position
+
+физ. размеры - margin, padding, border, width - имеют четыре параметра
+
+селекторы: по тегу, по айди (#), по классу (.class)
+
+id могут быть только уникальными! одному элементу можно задать несколько классов
+
+пробел в селекторе означает ВЛОЖЕННОСТЬ, а > - ПРЯМУЮ ВЛОЖЕННОСТЬ
+
+ПОВТОРИТЬ ПСЕВДОКЛАССЫ
+ПСЕВДОЭЛЕМЕНТЫ
+
+
+nth-child()
+nth-of-type()
+:link :visited :active :hover :focus
+
+
+
+input[disabled] {
+  opacity: 0.5;
+}
+
+input[type~"em"] {
+  opacity: 0.5;
+}
+
+:hover
+
+-------------------------------------------------
+strong:hover {
+  font-size: 24px;
+  color: pink;
+}
+
+p:first-child {
+  background:magenta;
+}
+
+p:last-child {
+  background:yellow;
+}
+
+p:nth-child(3) {
+  background:cyan;
+}
+
+p:nth-of-type(3) {
+
+}
+
+p:nth-child(4n+2) {
+  background:cyan;
+}
+
+--------------------------------------------------
+
+псевдоклассы
+:link :visited :active (moment of click) :visited :active :hover :focus (describes focused input)
+:enabled :disabled :checked
+
+псевдоэлементы:
+:first-line :first-letter
+:before :after
+
+ p.for:before {
+ font-size: 40px;
+ color:orange;
+ background:cyan;
+ content: "PURE CSS MAGIC"
+ }
+
+
+!important in CSS always has priority
+
+ССЫЛКА НЕ ПЕРЕНИМАЕТ СТИЛИ РОДИТЕЛЕЙyf
