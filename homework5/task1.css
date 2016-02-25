@@ -14,7 +14,6 @@
 .overscore li {
     display: inline-block;
   	list-style-type: none;
-    text-transform: uppercase;
     color: #FFFFFF;
     font-family: impact;
     padding: 7px 11px;
