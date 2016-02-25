@@ -1,1 +1,113 @@
-/* to be completed*/
+.wrapper{
+  width: 100%;
+}
+
+/*Не очень красиво, много отрицательных маржинов. Переделаю попозже, ибо дедлайн поджимает*/
+
+.container {
+  width: 300px;
+  height: 500px;
+  border: 4px solid;
+  border-color: #EE8129;
+  border-radius: 4px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 7%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+.bestvalue {
+  background-color: #EE8129;
+  height: 80px;
+  width: 300px;
+  margin-top: -28px;
+}
+
+.bestvalue>p {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 28px;
+  padding-top: 24px;
+  font-weight: bold;
+  font-family: Calibri;
+}
+
+.pitchstring>p {
+  text-align: center;
+  color: #3F4042;
+  font-size: 28px;
+  font-family: Calibri;
+}
+
+.price {
+  width: 220px;
+  margin: 0 auto;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: Trebuchet MS;
+  color: #35495A;
+  margin-left: 80px;
+  margin-top: -25px;
+}
+
+.dollarsign {
+  vertical-align: super;
+  font-size: 20px;
+}
+
+.term {
+  vertical-align: sub;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.table {
+  text-align: justify;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+
+ul {
+    list-style-type:none;
+    padding: 0;
+    color: #888c94;
+}
+li {
+    padding: 7px 5px 7px 30px;
+	border-bottom: 1px solid white;
+}
+
+.table {
+    width:260px;
+    margin-left: 19px;
+    margin-top: 28px;
+    font-family: Trebuchet MS;
+}
+li:nth-child(odd) {
+    background-color: #edf5fd;
+}
+li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+li:before {
+    content: url(check.png);
+    margin-right: 10px;
+}
+
+.button {
+  width: 250px;
+  height: 27px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+  color: FFFFFF;
+  background-color: #EE8129;
+  border-color: #EE8129;
+  border-radius: 4px;
+  border-bottom: 3px solid #B3560B;
+  margin-left: 24px;
+  padding-bottom: -4px;
+  padding-top: 8px;
+  padding-bottom: 0;
+}
