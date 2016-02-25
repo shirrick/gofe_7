@@ -1,0 +1,81 @@
+.menutop {
+    background-color: #1AA4FF;
+    margin-top: 15px;
+    box-shadow: 0px -0.5px 4px 0px rgba(50, 50, 50, 0.50);
+	  position: relative;
+}
+
+.overscore {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.overscore li {
+    display: inline-block;
+  	list-style-type: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: impact;
+    padding: 7px 11px;
+    font-size: 18px;
+}
+.overscore li a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.overscore li:last-child {
+    float: right;
+}
+
+.overscore li:hover {
+    cursor: pointer;
+    background-color: #EEEEEE;
+    color:#808080;
+}
+.overscore li:hover a {
+    color:#808080;
+}
+
+.select {
+    position: absolute;
+    width:100%;
+    left:0;
+    top: 36px;
+}
+
+.select ul {
+    display: none;
+    background-color: #EEEEEE;
+}
+
+.select li a{
+    font-family: Arial;
+    color:#808080;
+    font-size: 12px;
+}
+
+.overscore li:hover > .select  ul{
+    display:block;
+}
+
+.select li a:hover {
+    color:#1AA4FF;
+}
+
+.select li:last-child {
+  float: none;
+}
+
+.home ul {padding-left: 0.22%;} /* тут не нашёл лучшего решения, чем вручную растыкать паддинги*/
+.news ul {padding-left: 12%;}
+.economics ul {padding-left: 24%;}
+.local ul {padding-left: 26%;}
+.sport ul {padding-left: 36%}
+.culture ul {padding-left: 29%;}
+.travel ul{padding-left:46%;}
+.living ul {padding-left:52%;}
+.money ul {padding-left: 59%;}
+.technology ul {padding-left: 70%;}
+.more ul {padding-left: 76%;}
