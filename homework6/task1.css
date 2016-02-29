@@ -1,0 +1,203 @@
+.super-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+}
+
+.mid-wrapper {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 300px;
+  display: inline-block;
+}
+
+.middle {
+  width: 300px;
+  height: 470px;
+  border: 4px solid;
+  border-color: #EE8129;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -20px;
+  border-radius: 4px;
+}
+
+.left {
+  width: 290px;
+  height: 450px;
+  border: 1px solid;
+  border-color: #E9EBED;
+  vertical-align: middle;
+  margin-right: -4px;
+  margin-top: -365px; /*ну этот маржин - жопа, конечно, но я не смог по-другому
+  выровнять каждый из трёх элементов относительно соседей*/
+  border-radius: 4px;
+}
+
+.right {
+  width: 290px;
+  height: 450px;
+  border: 1px solid;
+  border-color: #E9EBED;
+  vertical-align: middle;
+  margin-left: -3px;
+  margin-top: -365px;
+  border-radius: 4px;
+}
+
+.middle>.bestvalue {
+  background-color: #EE8129;
+  height: 80px;
+  width: 300px;
+  margin-top: -30px;
+  margin-bottom: -6px;
+}
+
+.middle>.bestvalue>p {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 28px;
+  padding-top: 24px;
+  font-weight: bold;
+  font-family: Trebuchet MS;
+  margin-top: 26px;
+}
+
+.right>.bestvalue {
+  background-color: #1CB79A;
+  height: 65px;
+  width: 292px;
+  margin-top: -28px;
+  margin-left: -2px;
+  border-radius: 0px 4px 0 0;
+}
+
+.right>.bestvalue>p {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 28px;
+  padding-top: 16px;
+  font-weight: bold;
+  font-family: Trebuchet MS;
+}
+
+.left>.bestvalue {
+  background-color: #37C2D3;
+  height: 65px;
+  width: 295px;
+  margin-top: -28px;
+  border-radius: 4px 0 0 0;
+}
+
+.left>.bestvalue>p {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 25px;
+  padding-top: 16px;
+  font-weight: bold;
+  font-family: Calibri;
+}
+
+.pitchstring>p {
+  text-align: center;
+  color: #3F4042;
+  font-size: 25px;
+  font-family: Trebuchet MS;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.price {
+  width: 220px;
+  margin: 0 auto;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: Trebuchet MS;
+  color: #35495A;
+  margin-left: 80px;
+  margin-top: -25px;
+}
+
+.dollarsign {
+  vertical-align: top;
+  font-size: 20px;
+}
+
+.term {
+  vertical-align: sub;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.table {
+  text-align: justify;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+
+ul {
+    list-style-type:none;
+    padding: 0;
+    color: #888c94;
+}
+li {
+    padding: 7px 5px 7px 30px;
+	border-bottom: 1px solid white;
+}
+
+.table {
+    width:260px;
+    margin-left: 19px;
+    margin-top: 28px;
+    font-family: Trebuchet MS;
+}
+li:nth-child(odd) {
+    background-color: #edf5fd;
+}
+li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+li::before {
+    content: url(check.png);
+    margin-right: 10px;
+}
+
+.button {
+  width: 250px;
+  height: 27px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+  color: FFFFFF;
+  background-color: #EE8129;
+  border-color: #EE8129;
+  border-radius: 4px;
+  border-bottom: 3px solid #B3560B;
+  margin-left: 24px;
+  padding-top: 8px;
+  padding-bottom: 0;
+}
+
+.left>.button,
+.right>.button {
+  width: 250px;
+  height: 27px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+  color: FFFFFF;
+  background-color: #3371A6;
+  border-color: #3371A6;
+  border-radius: 4px;
+  border-bottom: 3px solid #16436A;
+  margin-left: 24px;
+  padding-top: 8px;
+  padding-bottom: 0;
+}
