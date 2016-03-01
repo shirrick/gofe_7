@@ -23,7 +23,7 @@
   box-shadow: 0 0 3px rgba(0,0,0,0.5);
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: -20px;
+  margin-top: -24px;
   border-radius: 4px;
 }
 
@@ -34,7 +34,7 @@
   border-color: #E9EBED;
   vertical-align: middle;
   margin-right: -4px;
-  margin-top: -365px; /*ну этот маржин - жопа, конечно, но я не смог по-другому
+  margin-top: -374px; /*ну этот маржин - жопа, конечно, но я не смог по-другому
   выровнять каждый из трёх элементов относительно соседей*/
   border-radius: 4px;
 }
@@ -46,7 +46,7 @@
   border-color: #E9EBED;
   vertical-align: middle;
   margin-left: -3px;
-  margin-top: -369px;
+  margin-top: -374px;
   border-radius: 4px;
 }
 
