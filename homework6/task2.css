@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.base {
+  width: 1400px;
+  height: 315px;
+  margin: 0 auto;
+  margin-top: 220px;
+  background-image: url(background.png);
+  background-color: #161B1F;
+}
+
+.centeredtext {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+
+.textbox {
+  font-size: 46px;
+  font-family: Calibri;
+  margin: 0 auto;
+}
+
+.textbox.left {
+  color: #EE8129;
+}
+
+.textbox.right {
+  color: #3170A8;
+}
+
+.testimonials {
+  width: 1025px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.testimonials{
+  height: 100px; 
+}
+
+
+.foo,
+.fee {
+  width: 490px;
+  height: 100px;
+  display: inline-block;
+}
+
+.client {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.client.left {
+  float: left;
+}
+
+.speechbubble.left {
+  float: left;
+}
+
+.client.right {
+float: left;
+}
+
+.speechbubble.left {
+  float: left;
+}
+
+.speechbubble {
+  display: inline-block;
+  width: 365px;
+  height: 100px;
+}
+
+
+
+
+/*Спешно размещаю текст, пока не успеваю, доделаю*/
