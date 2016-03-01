@@ -40,46 +40,30 @@ body {
   width: 1025px;
   height: 100px;
   margin: 0 auto;
+  margin-top: 35px;
 }
-
-.testimonials{
-  height: 100px; 
-}
-
 
 .foo,
 .fee {
   width: 490px;
   height: 100px;
   display: inline-block;
+  margin: 0 auto;
 }
 
 .client {
-  display: inline-block;
   width: 100px;
   height: 100px;
-}
-
-.client.left {
-  float: left;
-}
-
-.speechbubble.left {
-  float: left;
-}
-
-.client.right {
-float: left;
-}
-
-.speechbubble.left {
-  float: left;
 }
 
 .speechbubble {
   display: inline-block;
   width: 365px;
   height: 100px;
+}
+
+.shape {
+  margin-left: 5px;
 }
 
 
