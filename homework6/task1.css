@@ -1,143 +1,79 @@
-.super-wrapper {
+.wrapper{
   width: 100%;
-  margin: 0;
-  padding: 0;
-  margin-top: 100px;
-}
-
-.mid-wrapper {
-  width: 920px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .container {
-  width: 300px;
   display: inline-block;
+  width: 290px;
+  height: 500px;
+
+  position: relative;
+  margin: 0 auto;
+  margin-top: 11%;
+  margin-left: -2px; /*сдвинул контейнеры вместе, без этого вообще никак*/
+  margin-right: -2px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.7);
+  font-family: 'Trebuchet MS';
+  vertical-align: middle;
+  z-index: 1;
 }
 
-.middle {
-  width: 300px;
-  height: 470px;
+.container.middle {
   border: 4px solid;
   border-color: #EE8129;
-  box-shadow: 0 0 3px rgba(0,0,0,0.5);
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: -24px;
   border-radius: 4px;
+
 }
 
-.left {
-  width: 290px;
-  height: 450px;
-  border: 1px solid;
-  border-color: #E9EBED;
-  vertical-align: middle;
-  margin-right: -4px;
-  margin-top: -374px; /*ну этот маржин - жопа, конечно, но я не смог по-другому
-  выровнять каждый из трёх элементов относительно соседей*/
-  border-radius: 4px;
-}
-
-.right {
-  width: 290px;
-  height: 450px;
-  border: 1px solid;
-  border-color: #E9EBED;
-  vertical-align: middle;
-  margin-left: -3px;
-  margin-top: -374px;
-  border-radius: 4px;
-}
-
-.middle>.bestvalue {
+h1 {
   background-color: #EE8129;
-  height: 80px;
-  width: 300px;
-  margin-top: -30px;
-  margin-bottom: -6px;
-}
-
-.middle>.bestvalue>p {
+  width: 100%;
   text-align: center;
-  color: #FFFFFF;
-  font-size: 28px;
-  padding-top: 24px;
-  font-weight: bold;
-  font-family: Trebuchet MS;
-  margin-top: 26px;
-}
-
-.right>.bestvalue {
-  background-color: #1CB79A;
-  height: 65px;
-  width: 292px;
-  margin-top: -28px;
-  margin-left: -2px;
-  border-radius: 0px 4px 0 0;
-}
-
-.right>.bestvalue>p {
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 28px;
-  padding-top: 16px;
-  font-weight: bold;
-  font-family: Trebuchet MS;
-}
-
-.left>.bestvalue {
-  background-color: #37C2D3;
-  height: 65px;
-  width: 295px;
-  margin-top: -28px;
-  border-radius: 4px 0 0 0;
-}
-
-.left>.bestvalue>p {
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 28px;
-  padding-top: 16px;
-  font-weight: bold;
-  font-family: Trebuchet MS;
-}
-
-.pitchstring>p {
-  text-align: center;
-  color: #3F4042;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: white;
   font-size: 25px;
-  font-family: Trebuchet MS;
-  margin-top: 16px;
-  font-weight: bold;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #35495A;
+
 }
 
 .price {
-  width: 220px;
+  text-align: center;
+}
+.price span {
+  display: inline-block;
   margin: 0 auto;
   font-size: 70px;
   font-weight: bold;
-  font-family: Trebuchet MS;
+  font-family: 'Trebuchet MS';
   color: #35495A;
-  margin-left: 80px;
-  margin-top: -25px;
+  text-align: center;
+  position: relative;
 }
-
-.dollarsign {
+.price span::before {
+  content: '$';
+  font-size: 22px;
   vertical-align: top;
-  font-size: 20px;
 }
-
-.term {
-  vertical-align: sub;
-  font-size: 20px;
-  font-weight: lighter;
+.price span::after {
+  content: 'Monthly';
+  font-size: 18px;
+  vertical-align: bottom;
 }
 
 .table {
   text-align: justify;
-  margin-left: -30px;
   margin-top: 20px;
+  width:260px;
+  margin-left: 19px;
+  margin-top: 28px;
+  font-family: 'Trebuchet MS';
 }
 
 ul {
@@ -147,15 +83,9 @@ ul {
 }
 li {
     padding: 7px 5px 7px 30px;
-	border-bottom: 1px solid white;
+	 border-bottom: 1px solid white;
 }
 
-.table {
-    width:260px;
-    margin-left: 19px;
-    margin-top: 28px;
-    font-family: Trebuchet MS;
-}
 li:nth-child(odd) {
     background-color: #edf5fd;
 }
@@ -166,38 +96,68 @@ li::before {
     content: url(check.png);
     margin-right: 10px;
 }
-
-.button {
-  width: 250px;
-  height: 27px;
-  text-align: center;
-  font-size: 14px;
-  font-family: Arial;
-  font-weight: bold;
-  color: #FFFFFF;
+button {
   background-color: #EE8129;
-  border-color: #EE8129;
+  border:none;
+  padding: 12px 75px;
   border-radius: 4px;
-  border-bottom: 3px solid #B3560B;
-  margin-left: 24px;
-  padding-top: 8px;
-  padding-bottom: 0;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 3px 0 #B56524;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+button:hover {
+  background-color: #EF9D5A;
+}
+button:active {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
 }
 
-.left>.button,
-.right>.button {
-  width: 250px;
-  height: 27px;
+.container.right,
+.container.left {
+  width: 290px;
+  height: 470px;
+  z-index: 0;
+}
+
+.container.right>h1,
+.container.left>h1 {
+  background-color: #37C2D3;
+  width: 100%;
+  border-radius: 1px solid;
+  border-color: grey;
   text-align: center;
-  font-size: 14px;
-  font-family: Arial;
-  font-weight: bold;
-  color: #FFFFFF;
+  margin: 0;
+  padding: 12px 0;
+  text-transform: uppercase;
+  color: white;
+  font-size: 25px;
+}
+
+.container.right>h1 {
+  background-color:#1CB79A;
+}
+
+.container.right>button,
+.container.left>button {
   background-color: #3371A6;
-  border-color: #3371A6;
-  border-radius: 4px;
-  border-bottom: 3px solid #16436A;
-  margin-left: 24px;
-  padding-top: 8px;
-  padding-bottom: 0;
+  box-shadow: 0 3px 0 #16436A;
+}
+
+.container.right>button:active,
+.container.left>button:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+}
+
+.container.right>button:hover,
+.container.left>button:hover {
+  background-color:#4f90c9;
 }

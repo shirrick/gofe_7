@@ -13,7 +13,7 @@
   margin: 0 auto;
   margin-top: 7%;
   box-shadow: 0 0 5px rgba(0,0,0,0.7);
-  font-family: Trebuchet MS;
+  font-family: 'Trebuchet MS';
 }
 
 h1 {
@@ -40,7 +40,7 @@ h2 {
   margin: 0 auto;
   font-size: 70px;
   font-weight: bold;
-  font-family: Trebuchet MS;
+  font-family: 'Trebuchet MS';
   color: #35495A;
   text-align: center;
   position: relative;
@@ -86,7 +86,7 @@ li {
     width:260px;
     margin-left: 19px;
     margin-top: 28px;
-    font-family: Trebuchet MS;
+    font-family: 'Trebuchet MS';
 }
 li:nth-child(odd) {
     background-color: #edf5fd;
