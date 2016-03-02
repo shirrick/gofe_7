@@ -1,8 +1,7 @@
 .wrapper{
   width: 100%;
+  text-align: center;
 }
-
-/*Не очень красиво, много отрицательных маржинов. Переделаю попозже, ибо дедлайн поджимает*/
 
 .container {
   width: 300px;
@@ -14,40 +13,47 @@
   margin: 0 auto;
   margin-top: 7%;
   box-shadow: 0 0 5px rgba(0,0,0,0.7);
+  font-family: Trebuchet MS;
 }
 
-.bestvalue {
+h1 {
   background-color: #EE8129;
-  height: 80px;
-  width: 300px;
-  margin-top: -28px;
-}
-
-.bestvalue>p {
+  width: 100%;
   text-align: center;
-  color: #FFFFFF;
-  font-size: 28px;
-  padding-top: 24px;
-  font-weight: bold;
-  font-family: Calibri;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: white;
 }
-
-.pitchstring>p {
+h2 {
+  text-transform: uppercase;
   text-align: center;
-  color: #3F4042;
-  font-size: 28px;
-  font-family: Calibri;
+  color: #35495A;
+
 }
 
 .price {
-  width: 220px;
+  text-align: center;
+}
+.price span {
+  display: inline-block;
   margin: 0 auto;
   font-size: 70px;
   font-weight: bold;
   font-family: Trebuchet MS;
   color: #35495A;
-  margin-left: 80px;
-  margin-top: -25px;
+  text-align: center;
+  position: relative;
+}
+.price span::before {
+  content: '$';
+  font-size: 25px;
+  vertical-align: top;
+}
+.price span::after {
+  content: 'Monthly';
+  font-size: 20px;
+  vertical-align: bottom;
 }
 
 .dollarsign {
@@ -63,7 +69,6 @@
 
 .table {
   text-align: justify;
-  margin-left: -30px;
   margin-top: 20px;
 }
 
@@ -74,7 +79,7 @@ ul {
 }
 li {
     padding: 7px 5px 7px 30px;
-	border-bottom: 1px solid white;
+	 border-bottom: 1px solid white;
 }
 
 .table {
@@ -93,21 +98,24 @@ li::before {
     content: url(check.png);
     margin-right: 10px;
 }
-
-.button {
-  width: 250px;
-  height: 27px;
-  text-align: center;
-  font-size: 14px;
-  font-family: Arial;
-  font-weight: bold;
-  color: FFFFFF;
+button {
   background-color: #EE8129;
-  border-color: #EE8129;
+  border:none;
+  padding: 12px 50px;
   border-radius: 4px;
-  border-bottom: 3px solid #B3560B;
-  margin-left: 24px;
-  padding-bottom: -4px;
-  padding-top: 8px;
-  padding-bottom: 0;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 3px 0 #B56524;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+button:hover {
+  background-color: #EF9D5A;
+}
+button:active {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
 }
