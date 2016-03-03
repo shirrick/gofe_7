@@ -7,6 +7,129 @@
   width: 1400px;
   height: 315px;
   margin: 0 auto;
-  margin-top: 11%;
   background-image: url(background.png);
+}
+
+h1 {
+  color: #3170A8;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+h1>span {
+  color: #ED8029;
+  font-weight: lighter;
+}
+
+/**/
+
+.firstClient img {
+    float: left;
+}
+.firstClient {
+    width: 491px;
+    float: left;
+    display: inline-block;
+    margin-left: 190px;
+}
+
+.comments_lady {
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+    height: 98px;
+    width: 364px;
+    border: 1px solid #fff;
+    margin-left: 27px;
+    box-sizing: border-box;
+    font-family: "OpenSans", sans-serif;
+    font-size: 13px;
+    background-color: #fff;
+    font-weight: 600;
+}
+.staciya {
+    float: left;
+    color: #3d79ad;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+.staciya_customer {
+    float: right;
+    color: #3d79ad;
+    font-style: italic;
+    padding-bottom: 15px;
+    padding-right: 6px;
+}
+.staciya_says {
+    clear: both;
+    border-top: 1px dashed #838383;
+    color: #838383;
+    padding-top: 10px;
+    padding-left: 7px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+.triangle1 {
+    position:absolute;
+    border: 15px solid;
+    border-color: transparent #fff transparent transparent;
+    overflow: hidden;
+    left: -30px;
+    top: 32px;
+}
+
+.secondClient {
+    display: inline-block;
+    width: 491px;
+    float: right;
+    margin-right: 190px;
+}
+.secondClient img {
+    float: left;
+}
+.comments_man {
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+    height: 98px;
+    width: 364px;
+    border: 1px solid #fff;
+    margin-left: 27px;
+    box-sizing: border-box;
+    font-family: "OpenSans", sans-serif;
+    font-size: 13px;
+    background-color: #fff;
+    font-weight: 600;
+}
+.david {
+    float: left;
+    color: #3d79ad;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+.david_customer {
+    float: right;
+    color: #3d79ad;
+    font-style: italic;
+    padding-bottom: 15px;
+    padding-right: 6px;
+}
+.david_says {
+    clear: both;
+    border-top: 1px dashed #838383;
+    color: #838383;
+    padding-top: 10px;
+    padding-left: 7px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+.triangle2 {
+    position:absolute;
+    border: 15px solid;
+    border-color: transparent #fff transparent transparent;
+    overflow: hidden;
+    left: -30px;
+    top: 32px;
 }
