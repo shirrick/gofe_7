@@ -1,69 +1,12 @@
-/*Отсюда всё нужно переделать, просьба не оценивать пока*/
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
+.super-container {
   width: 100%;
+  text-align: center;
 }
 
-.base {
+.container-testimonies {
   width: 1400px;
   height: 315px;
   margin: 0 auto;
-  margin-top: 220px;
+  margin-top: 11%;
   background-image: url(background.png);
-  background-color: #161B1F;
-}
-
-.centeredtext {
-  width: 400px;
-  margin: 0 auto;
-  padding-top: 45px;
-}
-
-.textbox {
-  font-size: 46px;
-  font-family: Calibri;
-  margin: 0 auto;
-}
-
-.textbox.left {
-  color: #EE8129;
-}
-
-.textbox.right {
-  color: #3170A8;
-}
-
-.testimonials {
-  width: 1025px;
-  height: 100px;
-  margin: 0 auto;
-  margin-top: 35px;
-}
-
-.foo,
-.fee {
-  width: 490px;
-  height: 100px;
-  display: inline-block;
-  margin: 0 auto;
-}
-
-.client {
-  width: 100px;
-  height: 100px;
-}
-
-.speechbubble {
-  display: inline-block;
-  width: 365px;
-  height: 100px;
-}
-
-.shape {
-  margin-left: 5px;
 }
