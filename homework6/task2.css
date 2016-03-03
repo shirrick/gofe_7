@@ -89,6 +89,7 @@ h1>span {
 .secondClient img {
     float: left;
 }
+
 .comments_man {
     position: relative;
     padding: 10px;
@@ -103,12 +104,14 @@ h1>span {
     background-color: #fff;
     font-weight: 600;
 }
+
 .david {
     float: left;
     color: #3d79ad;
     font-style: italic;
     padding-bottom: 15px;
 }
+
 .david_customer {
     float: right;
     color: #3d79ad;
@@ -116,6 +119,7 @@ h1>span {
     padding-bottom: 15px;
     padding-right: 6px;
 }
+
 .david_says {
     clear: both;
     border-top: 1px dashed #838383;
@@ -125,6 +129,7 @@ h1>span {
     letter-spacing: 0.3px;
     font-weight: 500;
 }
+
 .triangle2 {
     position:absolute;
     border: 15px solid;
