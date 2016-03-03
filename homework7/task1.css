@@ -1,0 +1,71 @@
+.homework {
+    font-family: sans-serif;
+    color: transparent;
+    text-shadow: 0 0 2.5px #545454;
+   }
+.sight00 {
+    font-size: 61px;
+    letter-spacing: 60px;
+    margin: 2px 2px 30px;
+}
+.sight01 {
+    font-size: 50px;
+    letter-spacing: 24px;
+    margin: 2px 2px 25px;
+}
+.sight02 {
+    font-size: 45px;
+    letter-spacing: 8px;
+    margin: 2px 2px 25px;
+}
+.sight03 {
+    font-size: 41px;
+    letter-spacing: 5px;
+    margin: 2px 2px 25px;
+}
+.sight04 {
+    font-size: 34px;
+    letter-spacing: 8.5px;
+    margin: 2px 2px 25px;
+}
+.sight05 {
+    font-size: 30px;
+    letter-spacing: 6px;
+    margin: 2px 2px 18px;
+}
+.sight06 {
+    font-size: 25px;
+    letter-spacing: 9px;
+    margin: 2px 2px 18px;
+}
+.sight07 {
+    font-size: 20px;
+    letter-spacing: 8px;
+    margin: 2px 2px 18px;
+}
+.sight08 {
+    font-size: 14px;
+    letter-spacing: 11.5px;
+    margin: 2px 2px 17px;
+}
+.sight09 {
+    font-size: 11px;
+    letter-spacing: 10.7px;
+    margin: 2px 2px 12px;
+}
+.line {
+    border-bottom: 1px solid;
+    border-bottom-color: #FFC3C2;
+    width: 240px;
+}
+.sight10 {
+    font-size: 8px;
+    letter-spacing: 12.3px;
+    margin: 2px 2px 16px;
+    margin-top: 9px;
+}
+.sight11 {
+    font-size: 7px;
+    letter-spacing: 12.7px;
+    margin: 2px 2px 15px;
+}
