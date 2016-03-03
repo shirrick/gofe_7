@@ -1,4 +1,4 @@
-.wrapper{
+.pricewrapper{
   width: 100%;
   text-align: center;
 }
@@ -26,7 +26,7 @@
 
 }
 
-h1 {
+.container>h1 {
   background-color: #EE8129;
   width: 100%;
   text-align: center;
@@ -36,7 +36,7 @@ h1 {
   color: white;
   font-size: 25px;
 }
-h2 {
+.container>h2 {
   text-transform: uppercase;
   text-align: center;
   color: #35495A;
@@ -110,10 +110,11 @@ button {
   cursor: pointer;
   transition: background 0.2s ease;
 }
-button:hover {
+.button2:hover {
   background-color: #EF9D5A;
 }
-button:active {
+
+.button2:active {
   position: relative;
   top: 3px;
   box-shadow: none;
