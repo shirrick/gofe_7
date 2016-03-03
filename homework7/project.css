@@ -352,14 +352,35 @@ body {
     font-weight: 500;
 }
 
-.triangle1 {
+/*.triangle1 {
     position:absolute;
     border: 15px solid;
     border-color: transparent #fff transparent transparent;
     overflow: hidden;
     left: -30px;
     top: 32px;
+}*/
+
+.comments_lady::before{
+  border: 22px solid;
+  content: ' ';
+  border-color: transparent #fff transparent transparent;
+  display: block;
+  position: absolute;
+  left: -40px;
+  top: 25px;
 }
+
+.comments_man::before{
+  border: 22px solid;
+  content: ' ';
+  border-color: transparent #fff transparent transparent;
+  display: block;
+  position: absolute;
+  left: -40px;
+  top: 25px;
+}
+
 
 .secondClient {
     display: inline-block;
@@ -411,11 +432,11 @@ body {
     font-weight: 500;
 }
 
-.triangle2 {
+/*.triangle2 {
     position:absolute;
     border: 15px solid;
     border-color: transparent #fff transparent transparent;
     overflow: hidden;
     left: -30px;
     top: 32px;
-}
+}*/
