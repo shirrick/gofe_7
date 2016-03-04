@@ -316,10 +316,21 @@ body {
 .firstClient img {
     float: left;
 }
+
+.secondClient img {
+    float: left;
+}
+
 .firstClient {
     width: 470px;
     float: left;
     display: inline-block;
+}
+
+.secondClient {
+  width: 470px;
+  float: right;
+  display: inline-block;
 }
 
 .comments_lady {
@@ -401,14 +412,7 @@ body {
     font-size: 12px;
 }
 
-/*.triangle1 {
-    position:absolute;
-    border: 15px solid;
-    border-color: transparent #fff transparent transparent;
-    overflow: hidden;
-    left: -30px;
-    top: 32px;
-}*/
+
 
 .comments_lady::before,
 .comments_man::before {
@@ -421,21 +425,17 @@ body {
   top: 25px;
 }
 
-.secondClient {
-  width: 470px;
-  float: right;
-  display: inline-block;
-}
-.secondClient img {
-    float: left;
-}
-
-
-
-
-
 
 /*.triangle2 {
+    position:absolute;
+    border: 15px solid;
+    border-color: transparent #fff transparent transparent;
+    overflow: hidden;
+    left: -30px;
+    top: 32px;
+}*/
+
+/*.triangle1 {
     position:absolute;
     border: 15px solid;
     border-color: transparent #fff transparent transparent;
