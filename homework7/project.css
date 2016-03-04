@@ -108,6 +108,7 @@ body {
 .pricewrapper{
   width: 100%;
   text-align: center;
+  height: 900px;
 }
 
 .container {
@@ -116,7 +117,7 @@ body {
   height: 500px;
   position: relative;
   margin: 0 auto;
-  margin-top: 11%;
+  margin-top: 100px;
   margin-left: -2px; /*сдвинул контейнеры вместе, без этого вообще никак*/
   margin-right: -2px;
   box-shadow: 0 0 5px rgba(0,0,0,0.7);
