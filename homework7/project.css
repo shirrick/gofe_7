@@ -283,7 +283,7 @@ body {
 }
 
 .container-testimonies {
-  width: 1400px;
+  width: 100%;
   height: 315px;
   margin: 0 auto;
   background-image: url(background.png);
@@ -312,7 +312,7 @@ body {
     width: 491px;
     float: left;
     display: inline-block;
-    margin-left: 190px;
+    margin-left: 110px;
 }
 
 .comments_lady {
