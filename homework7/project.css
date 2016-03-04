@@ -289,12 +289,20 @@ body {
   background-image: url(background.png);
 }
 
+.subcontainer-testimonies {
+  width: 960px;
+  height: 95px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .container-testimonies h1 {
   color: #3170A8;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 34px;
   padding-top: 50px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -309,47 +317,88 @@ body {
     float: left;
 }
 .firstClient {
-    width: 491px;
+    width: 470px;
     float: left;
     display: inline-block;
-    margin-left: 110px;
 }
 
 .comments_lady {
     position: relative;
-    padding: 10px;
+    padding: 5px;
     display: inline-block;
-    height: 98px;
+    height: 80px;
     width: 364px;
     border: 1px solid #fff;
-    margin-left: 27px;
+    margin-left: 10px;
     box-sizing: border-box;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 13px;
     background-color: #fff;
     font-weight: 600;
 }
+
+.comments_man {
+    position: relative;
+    padding: 5px;
+    display: inline-block;
+    height: 80px;
+    width: 364px;
+    border: 1px solid #fff;
+    margin-left: 10px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    background-color: #fff;
+    font-weight: 600;
+}
+
 .staciya {
     float: left;
     color: #3d79ad;
     font-style: italic;
-    padding-bottom: 15px;
+    padding-bottom: 8px;
 }
 .staciya_customer {
     float: right;
     color: #3d79ad;
     font-style: italic;
-    padding-bottom: 15px;
+    padding-right: 6px;
+    padding-bottom: 8px;
+}
+
+.david {
+    float: left;
+    color: #3d79ad;
+    font-style: italic;
+    padding-bottom: 8px;
+}
+
+.david_customer {
+    float: right;
+    color: #3d79ad;
+    font-style: italic;
+    padding-bottom: 8px;
     padding-right: 6px;
 }
+
 .staciya_says {
     clear: both;
     border-top: 1px dashed #838383;
     color: #838383;
-    padding-top: 10px;
-    padding-left: 7px;
+    padding-top: 4px;
     letter-spacing: 0.3px;
     font-weight: 500;
+    font-size: 12px;
+}
+
+.david_says {
+    clear: both;
+    border-top: 1px dashed #838383;
+    color: #838383;
+    padding-top: 4px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    font-size: 12px;
 }
 
 /*.triangle1 {
@@ -361,76 +410,30 @@ body {
     top: 32px;
 }*/
 
-.comments_lady::before{
-  border: 22px solid;
+.comments_lady::before,
+.comments_man::before {
+  border: 15px solid;
   content: ' ';
   border-color: transparent #fff transparent transparent;
   display: block;
   position: absolute;
-  left: -40px;
+  left: -30px;
   top: 25px;
 }
-
-.comments_man::before{
-  border: 22px solid;
-  content: ' ';
-  border-color: transparent #fff transparent transparent;
-  display: block;
-  position: absolute;
-  left: -40px;
-  top: 25px;
-}
-
 
 .secondClient {
-    display: inline-block;
-    width: 491px;
-    float: right;
-    margin-right: 190px;
+  width: 470px;
+  float: right;
+  display: inline-block;
 }
 .secondClient img {
     float: left;
 }
 
-.comments_man {
-    position: relative;
-    padding: 10px;
-    display: inline-block;
-    height: 98px;
-    width: 364px;
-    border: 1px solid #fff;
-    margin-left: 27px;
-    box-sizing: border-box;
-    font-family: "OpenSans", sans-serif;
-    font-size: 13px;
-    background-color: #fff;
-    font-weight: 600;
-}
 
-.david {
-    float: left;
-    color: #3d79ad;
-    font-style: italic;
-    padding-bottom: 15px;
-}
 
-.david_customer {
-    float: right;
-    color: #3d79ad;
-    font-style: italic;
-    padding-bottom: 15px;
-    padding-right: 6px;
-}
 
-.david_says {
-    clear: both;
-    border-top: 1px dashed #838383;
-    color: #838383;
-    padding-top: 10px;
-    padding-left: 7px;
-    letter-spacing: 0.3px;
-    font-weight: 500;
-}
+
 
 /*.triangle2 {
     position:absolute;
