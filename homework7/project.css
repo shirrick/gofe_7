@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,800,300);
+
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans', Verdana, sans-serif;
 }
 
 .ultimate-wrapper {
@@ -8,101 +11,98 @@ body {
 }
 
 .header {
-  width: 100%;
+  width: 960px;
   margin: 0 auto;
 }
 
+.main-logo {
+  height: 115px;
+  display: inline-block;
+  line-height: 115px;
+}
+
 .logo {
-    float: left;
-    position: absolute;
-    top: 45px;
-    left: 190px;
+  vertical-align: middle;
 }
 
-.navigation {
-    position: absolute;  /*Вот ХЗ как тут без абсолюта*/
-    top: 37px;
-    left: 600px;
+.main-menu {
+  float: right;
 }
 
-.navigation>li {
-    float: left;
-    margin-right: 42px;
-    list-style-type: none;
-    padding-bottom: 41px;
+.menu-link {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #989898;
+  display: inline-block;
+  height: 115px;
+  line-height: 115px;
+  vertical-align: middle;
+  padding: 0 15px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin-right: -5px;
 }
 
-.navigation>li:last-child {
+.menu-link:last-child {
   margin-right: 0;
 }
 
-.navigation a {
-    font: 14px "OpenSans", sans-serif;
-    color: #A5A5A5;
-    text-decoration: none;
+.menu-link_active,
+.menu-link:hover {
+  color: #3070a8;
+  border-bottom: 4px solid #3070a8;
 }
 
-.navigation li a:hover {
-  color:#3070A7;
+
+.presentation {
+  background: transparent url(banner.png) center center no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 140px 0 100px;
 }
 
-.navigation li:hover {
-    border: block;
-    border-bottom: 4px solid #3070A7;
+.first-row {
+  font-size: 36px;
+  font-weight: 300;
 }
 
-.banner {
-    position: relative;
-    background: #222 url(banner.png) no-repeat center;
-    height: 585px;
-    width: 1400px;
-    top: 116px;
-    margin: auto;
+.second-row {
+  font-size: 48px;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: block;
 }
 
-.bannertext {
-    text-align: center;
-    padding-top: 120px;
-    color: #ffffff;
+.presentation-main-row {
+  width: 880px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.banner h3 {
-   font-family: sans-serif;
-    font-size: 30px;
-    font-weight: 200;
-    margin-bottom: -20px;
+.presentation-secondary-row {
+  font-size: 20px;
+  font-style: italic;
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.banner h1 {
-    font-family:"FuturaBT", sans-serif;
-    font-size: 48px;
-    font-weight: 750;
-    margin-bottom: 15px;
+.presentation-button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 65px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase;
 }
 
-.textwall {
-    text-shadow: 1px 1px 1px grey;
-    font-style:italic;
-    font-size: 17px;
-    font-family: sans-serif;
-    line-height: 30px;
-    letter-spacing: 1px
-}
-
-.button1 {
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    padding: 20px 64px;
-    color: #ffffff;
-    font-size: 17px;
-    margin-top: 25px;
-    display: inline-block;
-    cursor: pointer;
-    transition: background 0.5s ease;
-}
-
-.button1:hover {
-    background-color: #88c9e0;
+.presentation-button:hover {
+  transition: background 0.5s ease;
+  background-color: #309bf2;
 }
 
 .pricewrapper{
