@@ -541,10 +541,122 @@ body {
   padding: 10px;
 }
 
-/*.midblock-subcontainer li::before {
+/*.midblock-subcontainer li::before { - неудачная попытка сделать буллетпойнты
     content:"·";
     font-size:120px;
     vertical-align:middle;
     line-height:20px;
     color: #9d9d9d;
 }*/
+
+.slipper {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.box_with_contact {
+    position: relative;
+    display: inline-block;
+    width: 460px;
+    height: 345px;
+    left: 0;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    color: #666666;
+    padding-top: 25px;
+    line-height: 32px;
+    padding-left: 10px;
+}
+.box_with_contact li {
+    list-style-type: none;
+}
+
+.first_one li {
+    padding-left: 60px;
+}
+
+.with_mark1 {
+    background: url(mark1.png) left center no-repeat;
+    overflow: visible;
+}
+.second_one {
+   line-height: 26px;
+   margin-top: -10px;
+}
+.with_mark2 {
+    background: url(mark2.png) left center no-repeat;
+    padding-left: 60px;
+}
+.with_mark3 {
+    background: url(mark3.png) left center no-repeat;
+    padding-left: 60px;
+    margin-top: 10px;
+
+}
+.with_mark3 a {
+   text-decoration: none;
+    color: #666666;
+}
+
+iframe {
+   float: right;
+   width: 50%;
+   height: 350px;
+   margin: 0;
+   padding: 0;
+}
+
+.network {
+   margin-top: 10px;
+   word-spacing: 20px;
+   margin-left: 50px;
+}
+
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -20px;
+    background: #3070a8 url(footer.png) repeat-y;
+}
+
+.footer-subcontainer {
+    width: 960;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+footer p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 27px;
+}
+
+footer span.company_name {
+  font-weight: 700;
+}
+
+footer a {
+  text-decoration: none;
+    font-weight: 700;
+}
+
+footer a:link {
+  color: #000;
+}
+
+footer a:visited {
+  color: #900060;
+}
+
+footer a:active {
+  color: #b3560b;
+}
