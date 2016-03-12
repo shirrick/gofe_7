@@ -1,0 +1,50 @@
+.wrapper {
+    position: relative;
+    padding: 5px;
+    margin: 20px;
+    width: 45%;
+    height: 45px;
+    min-width: 120px;
+    background-color: #FFCD5D;
+    border-radius: 0 1px 1px 0;
+}
+
+.text {
+    float: left;
+    width: 80%;
+    height: 20px;
+
+}
+.wrapper [type="submit"] {
+    float: right;
+    margin-right: 4%;
+    height: 25px;
+    width: 14%;
+    border-radius: 3px;
+    background-color: #F3F3F3;
+    font-size: 15px;
+}
+.wrapper [type="checkbox"] {
+    clear: both;
+    display: block;
+    top: 32px;
+    position: absolute;
+
+}
+label {
+  width: 34%;
+  height: 34%;
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  overflow-y: auto;
+}
+  .wrapper:after {
+    content:"";
+    position: absolute;
+    right: -42px;
+    top: 0.2px;
+    border: 27.5px solid;
+    border-color: transparent transparent transparent #FFCD5D;
+    border-left: 15px solid #FFCD5D;
+  }
