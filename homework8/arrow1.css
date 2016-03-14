@@ -4,8 +4,8 @@
     margin: 20px;
     width: 95%;
     height: 50px;
-    min-width: 180px;
-    max-width: 768px;
+    min-width: 90px;
+    max-width: 968px;
     background-color: #FFCD5D;
     border-radius: 0 1px 1px 0;
     display: block;
@@ -39,6 +39,10 @@ button {
     overflow: hidden;
 }
 
+button:active {
+  background-image: linear-gradient(to bottom, lightgrey, white);
+}
+
 .wrapper [type="checkbox"] {
     clear: both;
     display: block;
@@ -57,11 +61,11 @@ label {
 }
 
 .wrapper:after { /*Из условия: Необходимо сверстать поисковую стрелку используя :after и border. вот он афтер и бордер*/
-  content: "";
-  position: absolute;
-  right: -43px;
-  top: 0px;
-  border: 30px solid;
-  border-color: transparent transparent transparent #FFCD5D;
-  border-left: 14px solid #FFCD5D;
+    content: "";
+    position: absolute;
+    right: -43px;
+    top: 0px;
+    border: 30px solid;
+    border-color: transparent transparent transparent #FFCD5D;
+    border-left: 14px solid #FFCD5D;
 }

@@ -1,55 +1,71 @@
 .wrapper {
-    position: relative;
+    position: relative; /*переделал на 90%*/
     padding: 5px;
     margin: 20px;
-    width: 45%;
-    height: 45px;
-    min-width: 120px;
-
-background: -webkit-linear-gradient(left,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* IE10+ */
-background: linear-gradient(to right,  rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* W3C */
-
+    width: 95%;
+    height: 50px;
+    min-width: 90px;
+    max-width: 968px;
     border-radius: 0 1px 1px 0;
+    display: block;
+    background-image: linear-gradient(to bottom, #FECB45, #ECBC41);
 }
 
 .text {
     float: left;
     width: 80%;
     height: 20px;
-
+    border: 1px solid lightgrey;
+    border-radius: 1px;
+    outline: none;
 }
-.wrapper [type="submit"] {
+
+button {
     float: right;
-    margin-right: 4%;
+    margin-right: 5%;
     height: 25px;
-    width: 14%;
-    border-radius: 3px;
-    background-color: #F3F3F3;
+    width: 13%;
+    border-style: 0,5px solid;
+    background-color: #FEFEFE;
     font-size: 15px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline: none;
+    background-image: linear-gradient(to bottom, white, lightgrey);
+    overflow: hidden;
 }
-.wrapper [type="checkbox"] {
-    clear: both;
-    display: block;
-    top: 32px;
-    position: absolute;
 
+button:active {
+  background-image: linear-gradient(to bottom, lightgrey, white);
 }
-label {
-  width: 34%;
-  height: 34%;
-  position: absolute;
-  top: 30px;
-  left: 25px;
-  overflow-y: auto;
-}
-  .wrapper:after {
-    content:"";
+
+.wrapper::after {
+    content: '';
     position: absolute;
-    right: -42px;
-    top: 0.2px;
-    border: 27.5px solid;
-    border-color: transparent transparent transparent #FDB745;
-    border-left: 15px solid #FDB745;
+    top: 50%;
+    display: block;
+    right: -22px;
+    width: 43px;
+    height: 43px;
+    background-image: linear-gradient(45deg, #FECB45, #ECBC41);
+    transform: translateY(-50%) scale(.5, 1) rotate(135deg);
   }
+
+.underfield {
+    position: absolute;
+    line-height: 14px;
+    top: 37px;
+    left: 7px;
+    font-size: 14px;
+    height: 30%;
+    font-family: Arial;
+    overflow-y: hidden;
+}
+
+.underfield>span {
+    border-bottom: 1px dotted;
+    cursor: pointer;
+}
