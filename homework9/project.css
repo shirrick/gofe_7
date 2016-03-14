@@ -526,7 +526,7 @@ body {
 
 .midblock-subcontainer ul {
   list-style-image: url(img/bullet-grey.png);
-  height: auto; /*чтобы при зуме нормально ресайзилось*/
+  height: auto; /* сделал норм буллетпойнты, + чтобы при зуме нормально ресайзилось*/
 }
 
 .midblock-subcontainer ul li:nth-child(2) {
@@ -541,7 +541,7 @@ body {
   padding: 10px;
 }
 
-/*.midblock-subcontainer li::before { - неудачная попытка сделать буллетпойнты
+/*.midblock-subcontainer li::before { - предыдущая попытка сделать буллетпойнты
     content:"·";
     font-size:120px;
     vertical-align:middle;
@@ -552,8 +552,16 @@ body {
 .slipper {
     position: relative;
     width: 960px;
+    height: 350px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0;}
+
+.iframe-container {  /*ну тут так - не сильно изящно, ЗАТО РАБОТАЕТ. Спозиционировал абсолютом внутри родительского элемента.*/
+  position: absolute;
+  right: -311px;
+  top: -16px;
+  height: 350px;
+}
 
 }
 .box_with_contact {
@@ -580,6 +588,8 @@ body {
 .with_mark1 {
     background: url(img/mark1.png) left center no-repeat;
     overflow: visible;
+    height: 30px;
+    width: auto;
 }
 .second_one {
    line-height: 26px;
@@ -600,13 +610,7 @@ body {
     color: #666666;
 }
 
-iframe {
-   float: right;
-   width: 50%;
-   height: 350px;
-   margin: 0;
-   padding: 0;
-}
+
 
 .network {
    margin-top: 10px;
