@@ -581,6 +581,10 @@ body {
     list-style-type: none;
 }
 
+.first_one {
+  padding-top: 45px;
+}
+
 .first_one li {
     padding-left: 60px;
 }
@@ -590,14 +594,14 @@ body {
     overflow: visible;
     height: 30px;
     width: auto;
+    vertical-align: baseline;
 }
-.second_one {
-   line-height: 26px;
-   margin-top: -10px;
-}
+
 .with_mark2 {
     background: url(img/mark2.png) left center no-repeat;
     padding-left: 60px;
+    height: 24px;
+    margin-top: 1px;
 }
 .with_mark3 {
     background: url(img/mark3.png) left center no-repeat;
