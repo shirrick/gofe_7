@@ -56,7 +56,7 @@ body {
 
 
 .presentation {
-  background: transparent url(banner.png) center center no-repeat;
+  background: transparent url(img/banner.png) center center no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
@@ -213,7 +213,7 @@ body {
 }
 
 .container li::before {
-    content: url(check.png);
+    content: url(img/check.png);
     margin-right: 10px;
 }
 
@@ -295,7 +295,7 @@ body {
   width: 100%;
   height: 315px;
   margin: 0 auto;
-  background-image: url(background.png);
+  background-image: url(img/background.png);
 }
 
 .subcontainer-testimonies {
@@ -481,7 +481,7 @@ body {
 .midblock {
   width: 100%;
   height: 570px;
-  background: transparent url(back-2.png) center center no-repeat;
+  background: transparent url(img/back-2.png) center center no-repeat;
   margin-top: 50px;
   background-size: cover;
   color: #fff;
@@ -525,12 +525,12 @@ body {
 }
 
 .midblock-subcontainer ul {
-  list-style-image: url(bullet-grey.png);
+  list-style-image: url(img/bullet-grey.png);
   height: auto; /*чтобы при зуме нормально ресайзилось*/
 }
 
 .midblock-subcontainer ul li:nth-child(2) {
-  list-style-image: url(bullet-blue.png);
+  list-style-image: url(img/bullet-blue.png);
   color: #3070a8;
 }
 
@@ -578,7 +578,7 @@ body {
 }
 
 .with_mark1 {
-    background: url(mark1.png) left center no-repeat;
+    background: url(img/mark1.png) left center no-repeat;
     overflow: visible;
 }
 .second_one {
@@ -586,11 +586,11 @@ body {
    margin-top: -10px;
 }
 .with_mark2 {
-    background: url(mark2.png) left center no-repeat;
+    background: url(img/mark2.png) left center no-repeat;
     padding-left: 60px;
 }
 .with_mark3 {
-    background: url(mark3.png) left center no-repeat;
+    background: url(img/mark3.png) left center no-repeat;
     padding-left: 60px;
     margin-top: 10px;
 
@@ -619,7 +619,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     margin-top: -20px;
-    background: #3070a8 url(footer.png) repeat-y;
+    background: #3070a8 url(img/footer.png) repeat-y;
 }
 
 .footer-subcontainer {
