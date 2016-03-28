@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f6f9f9;
+  padding-top: 30px;
+}
+.main {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #f6f9f9;
+  text-align: center;
+}
+.main h1, .main h2 {
+  display: block;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+}
+.main h1 {
+  font-size: 41px;
+}
+.main h2 {
+  font-size: 15px;
+}
+.body-box-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.body-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1144px;
+  min-width: 370px;
+}
+.overlay {
+  background-color: #3aabf1;
+  width: 360px;
+  height: 260px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 0;
+}
+.subbox {
+  width: 360px;
+  height: 260px;
+  position: relative;
+  z-index: 1;
+}
+.glass {
+  position: absolute;
+  top: 120px;
+  left: 150px;
+  fill: #fff;
+  border: 1px solid #fff;
+  padding: 3px;
+  border-radius: 1px;
+  z-index: 0;
+  display: none;
+}
+.tool {
+  position: absolute;
+  top: 120px;
+  left: 190px;
+  border: 1px solid #fff;
+  padding: 3px;
+  border-radius: 3px;
+  z-index: 0;
+  display: none;
+}
+.subbox:hover {
+  opacity: 0.5;
+  z-index: 1;
+}
+.subbox:hover .tool, .subbox:hover .glass {
+  display: block;
+  z-index: 2;
+}
